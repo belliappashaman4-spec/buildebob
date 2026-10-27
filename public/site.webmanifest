@@ -1,0 +1,21 @@
+{
+  "name": "BuilderBob — Digital Growth Agency Bengaluru",
+  "short_name": "BuilderBob",
+  "description": "Website development, WhatsApp lead generation, local SEO, and AI enquiry automation for Indian SMBs.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#090D16",
+  "theme_color": "#2563EB",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "218x218",
+      "type": "image/png"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ]
+}

@@ -34,7 +34,14 @@ export const Footer: React.FC = () => {
               </div>
               <div className="flex items-center gap-2">
                 <MessageSquare className="w-4 h-4 text-emerald-400 flex-shrink-0" />
-                <span>WhatsApp: {siteConfig.contact.whatsappDisplay}</span>
+                <a
+                  href={`https://wa.me/${siteConfig.contact.whatsappNumber}?text=${encodeURIComponent(siteConfig.contact.defaultWhatsAppMessage)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white transition-colors"
+                >
+                  WhatsApp: {siteConfig.contact.whatsappDisplay}
+                </a>
               </div>
             </div>
           </div>
@@ -116,6 +123,14 @@ export const Footer: React.FC = () => {
               </li>
             </ul>
           </div>
+        </div>
+
+        {/* Local SEO Service Areas Bar */}
+        <div className="border-t border-slate-900 pt-6 pb-6 text-xs text-slate-500">
+          <p className="leading-relaxed">
+            <strong className="text-slate-400">Serving Small &amp; Medium Businesses Across Bengaluru &amp; India:</strong>{' '}
+            Indiranagar • Koramangala • HSR Layout • Whitefield • Jayanagar • JP Nagar • Electronic City • Sarjapur Road • Marathahalli • Hebbal • Malleshwaram • MG Road • Yelahanka • BTM Layout • Banashankari • Pan-India Remote Delivery
+          </p>
         </div>
 
         {/* Config / Compliance Notice Banner */}
