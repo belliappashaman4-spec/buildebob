@@ -84,9 +84,9 @@ export const siteConfig = {
     supportEmail: "support@builderbob.in",
     // Configurable official WhatsApp number.
     // Replace with your real business WhatsApp number in international format without '+' or spaces (e.g., '919876543210')
-    whatsappNumber: import.meta.env.VITE_WHATSAPP_NUMBER || "919000000000",
-    whatsappDisplay: "+91 90000 00000 (Configurable)",
-    phone: "+91 90000 00000 (Business Line)",
+    whatsappNumber: import.meta.env.VITE_WHATSAPP_NUMBER || "919482300930",
+    whatsappDisplay: "+91 94823 00930",
+    phone: "+91 94823 00930",
     defaultWhatsAppMessage: "Hi BuilderBob, I'm interested in building a website for my business. Please share the details.",
     hours: "Monday – Saturday: 9:30 AM – 7:00 PM IST",
   },
